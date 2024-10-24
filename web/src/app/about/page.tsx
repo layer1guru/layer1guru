@@ -10,7 +10,7 @@ import {
     LinkedInIcon,
     XIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait-hacker.jpg'
+import portraitImage from '@/images/portrait.jpg'
 
 function SocialLink({
     className,
@@ -69,9 +69,14 @@ export default function About() {
                 </div>
 
                 <div className="lg:order-first lg:row-span-2">
-                    <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                        I’m Shomari.
-                        I spend most of my time in Atlanta GA writing UNSTOPPABLE code.
+                    <h1 className="text-4xl font-light tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                        <span className="block text-amber-400 text-6xl">I’m Shomari</span>
+                        I spend most of my time in
+                        <span className="px-2 text-rose-500">Atlanta Georgia</span>
+                        writing
+                        <span className="block font-bold font-mono text-sky-400 tracking-wider">
+                            UNSTOPPABLE C0d3
+                        </span>
                     </h1>
 
                     <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
