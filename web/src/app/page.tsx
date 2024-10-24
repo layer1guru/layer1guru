@@ -282,12 +282,16 @@ export default async function Home() {
             <Container className="mt-9">
                 <div className="max-w-2xl">
                     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                        Effortlessly Design, Launch &amp; Manage <span className="italic text-sky-400">UNLIMITED</span> L1s to satisfy your <span className="italic text-rose-400">WILDEST</span> dreams!
+                        Effortlessly Design, Launch &amp; Manage <span className="italic text-sky-400">UNLIMITED</span> L1s to satisfy your <span className="italic text-rose-400">BIGGEST</span> dreams!
                     </h1>
 
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-300 leading-8 tracking-wider">
-                        I’m Shomari, a crypto enthusiast and passionate entrepreneur living in Atlanta Georgia.
-                        It’s my pleasure to introduce to Avalanche/Retro9000 a project that I’ve been working on for the last 3 years.
+                        I’m Shomari, an OG crypto enthusiast and passionate serial entrepreneur living in Atlanta Georgia.
+                        It’s my pleasure to introduce to ALL of the talented <Link href="https://www.avax.network/retro9000" target="_blank" className="font-bold text-blue-400 text-lg hover:text-blue-300 hover:underline">Avalanche Retro9000</Link> builders an <span className="text-lg font-bold text-fuchsia-400">EP!C Infra &amp; Tooling Suite</span> — that I’ve been working tirelessly on materializing for the last 3 years...
+
+                        <span className="block text-lg font-bold tracking-widest">
+                            Enjoy!
+                        </span>
                     </p>
 
                     <div className="mt-6 flex gap-6">
