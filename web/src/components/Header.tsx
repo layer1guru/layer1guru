@@ -6,10 +6,10 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useTheme } from 'next-themes'
 import {
-  Popover,
-  PopoverButton,
-  PopoverBackdrop,
-  PopoverPanel,
+    Popover,
+    PopoverButton,
+    PopoverBackdrop,
+    PopoverPanel,
 } from '@headlessui/react'
 import clsx from 'clsx'
 
@@ -94,43 +94,43 @@ function MobileNavItem({
 }
 
 function MobileNavigation(
-  props: React.ComponentPropsWithoutRef<typeof Popover>,
+    props: React.ComponentPropsWithoutRef<typeof Popover>,
 ) {
-  return (
-    <Popover {...props}>
-      <PopoverButton className="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20">
-        Menu
-        <ChevronDownIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400" />
-      </PopoverButton>
-      <PopoverBackdrop
-        transition
-        className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm duration-150 data-[closed]:opacity-0 data-[enter]:ease-out data-[leave]:ease-in dark:bg-black/80"
-      />
-      <PopoverPanel
-        focus
-        transition
-        className="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-white p-8 ring-1 ring-zinc-900/5 duration-150 data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:ease-out data-[leave]:ease-in dark:bg-zinc-900 dark:ring-zinc-800"
-      >
-        <div className="flex flex-row-reverse items-center justify-between">
-          <PopoverButton aria-label="Close menu" className="-m-1 p-1">
-            <CloseIcon className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
-          </PopoverButton>
-          <h2 className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
-            Navigation
-          </h2>
-        </div>
-        <nav className="mt-6">
-          <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-            <MobileNavItem href="/about">About</MobileNavItem>
-            <MobileNavItem href="/articles">Articles</MobileNavItem>
-            <MobileNavItem href="/projects">Projects</MobileNavItem>
-            <MobileNavItem href="/speaking">Speaking</MobileNavItem>
-            <MobileNavItem href="/uses">Uses</MobileNavItem>
-          </ul>
-        </nav>
-      </PopoverPanel>
-    </Popover>
-  )
+    return (
+        <Popover {...props}>
+            <PopoverButton className="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20">
+                Menu
+                <ChevronDownIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400" />
+            </PopoverButton>
+            <PopoverBackdrop
+                transition
+                className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm duration-150 data-[closed]:opacity-0 data-[enter]:ease-out data-[leave]:ease-in dark:bg-black/80"
+            />
+            <PopoverPanel
+                focus
+                transition
+                className="fixed inset-x-4 top-8 z-50 origin-top rounded-3xl bg-white p-8 ring-1 ring-zinc-900/5 duration-150 data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:ease-out data-[leave]:ease-in dark:bg-zinc-900 dark:ring-zinc-800"
+            >
+                <div className="flex flex-row-reverse items-center justify-between">
+                    <PopoverButton aria-label="Close menu" className="-m-1 p-1">
+                        <CloseIcon className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
+                    </PopoverButton>
+                    <h2 className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+                        Navigation
+                    </h2>
+                </div>
+                <nav className="mt-6">
+                    <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
+                        <MobileNavItem href="https://cloud.layer1.guru" target="_blank">Cloud</MobileNavItem>
+                        <MobileNavItem href="/releases">Releases</MobileNavItem>
+                        <MobileNavItem href="/showcase">Showcase</MobileNavItem>
+                        <MobileNavItem href="/wip">WIP</MobileNavItem>
+                        <MobileNavItem href="/about">About</MobileNavItem>
+                    </ul>
+                </nav>
+            </PopoverPanel>
+        </Popover>
+    )
 }
 
 function NavItem({
@@ -163,17 +163,17 @@ function NavItem({
 }
 
 function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
-  return (
-    <nav {...props}>
-      <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-        <NavItem href="/about">About</NavItem>
-        <NavItem href="/articles">Articles</NavItem>
-        <NavItem href="/projects">Projects</NavItem>
-        <NavItem href="/speaking">Speaking</NavItem>
-        <NavItem href="/uses">Uses</NavItem>
-      </ul>
-    </nav>
-  )
+    return (
+        <nav {...props}>
+            <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+                <NavItem href="https://cloud.layer1.guru" target="_blank">Cloud</NavItem>
+                <NavItem href="/releases">Releases</NavItem>
+                <NavItem href="/showcase">Showcase</NavItem>
+                <NavItem href="/wip">WIP</NavItem>
+                <NavItem href="/about">About</NavItem>
+            </ul>
+        </nav>
+    )
 }
 
 function ThemeToggle() {
@@ -248,87 +248,87 @@ function Avatar({
 }
 
 export function Header() {
-  let isHomePage = usePathname() === '/'
+    let isHomePage = usePathname() === '/'
 
-  let headerRef = useRef<React.ElementRef<'div'>>(null)
-  let avatarRef = useRef<React.ElementRef<'div'>>(null)
-  let isInitial = useRef(true)
+    let headerRef = useRef<React.ElementRef<'div'>>(null)
+    let avatarRef = useRef<React.ElementRef<'div'>>(null)
+    let isInitial = useRef(true)
 
-  useEffect(() => {
-    let downDelay = avatarRef.current?.offsetTop ?? 0
-    let upDelay = 64
+    useEffect(() => {
+        let downDelay = avatarRef.current?.offsetTop ?? 0
+        let upDelay = 64
 
-    function setProperty(property: string, value: string) {
-      document.documentElement.style.setProperty(property, value)
-    }
+        function setProperty(property: string, value: string) {
+            document.documentElement.style.setProperty(property, value)
+        }
 
-    function removeProperty(property: string) {
-      document.documentElement.style.removeProperty(property)
-    }
+        function removeProperty(property: string) {
+            document.documentElement.style.removeProperty(property)
+        }
 
-    function updateHeaderStyles() {
-      if (!headerRef.current) {
-        return
-      }
+        function updateHeaderStyles() {
+            if (!headerRef.current) {
+                return
+            }
 
-      let { top, height } = headerRef.current.getBoundingClientRect()
-      let scrollY = clamp(
-        window.scrollY,
-        0,
-        document.body.scrollHeight - window.innerHeight,
-      )
+            let { top, height } = headerRef.current.getBoundingClientRect()
+            let scrollY = clamp(
+                window.scrollY,
+                0,
+                document.body.scrollHeight - window.innerHeight,
+            )
 
-      if (isInitial.current) {
-        setProperty('--header-position', 'sticky')
-      }
+            if (isInitial.current) {
+                setProperty('--header-position', 'sticky')
+            }
 
-      setProperty('--content-offset', `${downDelay}px`)
+            setProperty('--content-offset', `${downDelay}px`)
 
-      if (isInitial.current || scrollY < downDelay) {
-        setProperty('--header-height', `${downDelay + height}px`)
-        setProperty('--header-mb', `${-downDelay}px`)
-      } else if (top + height < -upDelay) {
-        let offset = Math.max(height, scrollY - upDelay)
-        setProperty('--header-height', `${offset}px`)
-        setProperty('--header-mb', `${height - offset}px`)
-      } else if (top === 0) {
-        setProperty('--header-height', `${scrollY + height}px`)
-        setProperty('--header-mb', `${-scrollY}px`)
-      }
+            if (isInitial.current || scrollY < downDelay) {
+                setProperty('--header-height', `${downDelay + height}px`)
+                setProperty('--header-mb', `${-downDelay}px`)
+            } else if (top + height < -upDelay) {
+                let offset = Math.max(height, scrollY - upDelay)
+                setProperty('--header-height', `${offset}px`)
+                setProperty('--header-mb', `${height - offset}px`)
+            } else if (top === 0) {
+                setProperty('--header-height', `${scrollY + height}px`)
+                setProperty('--header-mb', `${-scrollY}px`)
+            }
 
-      if (top === 0 && scrollY > 0 && scrollY >= downDelay) {
-        setProperty('--header-inner-position', 'fixed')
-        removeProperty('--header-top')
-        removeProperty('--avatar-top')
-      } else {
-        removeProperty('--header-inner-position')
-        setProperty('--header-top', '0px')
-        setProperty('--avatar-top', '0px')
-      }
-    }
+            if (top === 0 && scrollY > 0 && scrollY >= downDelay) {
+                setProperty('--header-inner-position', 'fixed')
+                removeProperty('--header-top')
+                removeProperty('--avatar-top')
+            } else {
+                removeProperty('--header-inner-position')
+                setProperty('--header-top', '0px')
+                setProperty('--avatar-top', '0px')
+            }
+        }
 
-    function updateAvatarStyles() {
-      if (!isHomePage) {
-        return
-      }
+        function updateAvatarStyles() {
+            if (!isHomePage) {
+                return
+            }
 
-      let fromScale = 1
-      let toScale = 36 / 64
-      let fromX = 0
-      let toX = 2 / 16
+            let fromScale = 1
+            let toScale = 36 / 64
+            let fromX = 0
+            let toX = 2 / 16
 
-      let scrollY = downDelay - window.scrollY
+            let scrollY = downDelay - window.scrollY
 
-      let scale = (scrollY * (fromScale - toScale)) / downDelay + toScale
-      scale = clamp(scale, fromScale, toScale)
+            let scale = (scrollY * (fromScale - toScale)) / downDelay + toScale
+            scale = clamp(scale, fromScale, toScale)
 
-      let x = (scrollY * (fromX - toX)) / downDelay + toX
-      x = clamp(x, fromX, toX)
+            let x = (scrollY * (fromX - toX)) / downDelay + toX
+            x = clamp(x, fromX, toX)
 
-      setProperty(
-        '--avatar-image-transform',
-        `translate3d(${x}rem, 0, 0) scale(${scale})`,
-      )
+            setProperty(
+                '--avatar-image-transform',
+                `translate3d(${x}rem, 0, 0) scale(${scale})`,
+            )
 
       let borderScale = 1 / (toScale / scale)
       let borderX = (-toX + x) * borderScale
@@ -354,95 +354,96 @@ export function Header() {
     }
   }, [isHomePage])
 
-  return (
-    <>
-      <header
-        className="pointer-events-none relative z-50 flex flex-none flex-col"
-        style={{
-          height: 'var(--header-height)',
-          marginBottom: 'var(--header-mb)',
-        }}
-      >
-        {isHomePage && (
-          <>
-            <div
-              ref={avatarRef}
-              className="order-last mt-[calc(theme(spacing.16)-theme(spacing.3))]"
-            />
-            <Container
-              className="top-0 order-last -mb-3 pt-3"
-              style={{
-                position:
-                  'var(--header-position)' as React.CSSProperties['position'],
-              }}
-            >
-              <div
-                className="top-[var(--avatar-top,theme(spacing.3))] w-full"
+    return (
+        <>
+            <header
+                className="pointer-events-none relative z-50 flex flex-none flex-col"
                 style={{
-                  position:
+                    height: 'var(--header-height)',
+                    marginBottom: 'var(--header-mb)',
+                }}
+            >
+                {isHomePage && (
+                    <>
+                        <div
+                            ref={avatarRef}
+                            className="order-last mt-[calc(theme(spacing.16)-theme(spacing.3))]"
+                        />
+                        <Container
+                            className="top-0 order-last -mb-3 pt-3"
+                            style={{
+                                position:
+                                'var(--header-position)' as React.CSSProperties['position'],
+                            }}
+                        >
+                        <div
+                            className="top-[var(--avatar-top,theme(spacing.3))] w-full"
+                            style={{
+                                position:
+                                'var(--header-inner-position)' as React.CSSProperties['position'],
+                            }}
+                        >
+                        <div className="relative">
+                            <AvatarContainer
+                                className="absolute left-0 top-3 origin-left transition-opacity"
+                                style={{
+                                    opacity: 'var(--avatar-border-opacity, 0)',
+                                    transform: 'var(--avatar-border-transform)',
+                                }}
+                            />
+                            <Avatar
+                                large
+                                className="block h-16 w-16 origin-left"
+                                style={{ transform: 'var(--avatar-image-transform)' }}
+                            />
+                        </div>
+                    </div>
+                </Container>
+            </>
+        )}
+
+        <div
+            ref={headerRef}
+            className="top-0 z-10 h-16 pt-6"
+            style={{
+                position:
+                'var(--header-position)' as React.CSSProperties['position'],
+            }}
+        >
+            <Container
+                className="top-[var(--header-top,theme(spacing.6))] w-full"
+                style={{
+                    position:
                     'var(--header-inner-position)' as React.CSSProperties['position'],
                 }}
-              >
-                <div className="relative">
-                  <AvatarContainer
-                    className="absolute left-0 top-3 origin-left transition-opacity"
-                    style={{
-                      opacity: 'var(--avatar-border-opacity, 0)',
-                      transform: 'var(--avatar-border-transform)',
-                    }}
-                  />
-                  <Avatar
-                    large
-                    className="block h-16 w-16 origin-left"
-                    style={{ transform: 'var(--avatar-image-transform)' }}
-                  />
+            >
+                <div className="relative flex gap-4">
+                    <div className="flex flex-1">
+                        {!isHomePage && (
+                        <AvatarContainer>
+                        <Avatar />
+                        </AvatarContainer>
+                        )}
+                    </div>
+                    <div className="flex flex-1 justify-end md:justify-center">
+                        <MobileNavigation className="pointer-events-auto md:hidden" />
+                        <DesktopNavigation className="pointer-events-auto hidden md:block" />
+                    </div>
+                    <div className="flex justify-end md:flex-1">
+                        <div className="pointer-events-auto">
+                            <ThemeToggle />
+                        </div>
+                    </div>
                 </div>
-              </div>
             </Container>
-          </>
-        )}
-        <div
-          ref={headerRef}
-          className="top-0 z-10 h-16 pt-6"
-          style={{
-            position:
-              'var(--header-position)' as React.CSSProperties['position'],
-          }}
-        >
-          <Container
-            className="top-[var(--header-top,theme(spacing.6))] w-full"
-            style={{
-              position:
-                'var(--header-inner-position)' as React.CSSProperties['position'],
-            }}
-          >
-            <div className="relative flex gap-4">
-              <div className="flex flex-1">
-                {!isHomePage && (
-                  <AvatarContainer>
-                    <Avatar />
-                  </AvatarContainer>
-                )}
-              </div>
-              <div className="flex flex-1 justify-end md:justify-center">
-                <MobileNavigation className="pointer-events-auto md:hidden" />
-                <DesktopNavigation className="pointer-events-auto hidden md:block" />
-              </div>
-              <div className="flex justify-end md:flex-1">
-                <div className="pointer-events-auto">
-                  <ThemeToggle />
-                </div>
-              </div>
-            </div>
-          </Container>
         </div>
-      </header>
-      {isHomePage && (
+    </header>
+    {isHomePage && (
         <div
-          className="flex-none"
-          style={{ height: 'var(--content-offset)' }}
+            className="flex-none"
+            style={{ height: 'var(--content-offset)' }}
         />
-      )}
-    </>
-  )
+            )}
+        </>
+    )
 }
