@@ -27,7 +27,7 @@
                 <div class="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
                     <div class="sm:flex sm:items-start">
                         <div class="mx-auto flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0">
-                            <img :src="require('../assets/avax-logo.png')" />
+                            <img src="@/assets/avax-logo.png" />
                         </div>
 
                         <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">

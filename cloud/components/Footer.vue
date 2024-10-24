@@ -12,7 +12,7 @@ const { projectid, projectName } = await $fetch('/api/v1/project')
 
         <div class="-mt-3 relative flex justify-center">
             <span class="bg-white px-3 text-gray-500">
-                <img src="~/assets/icon.svg" class="w-6 h-auto" />
+                <img src="~/assets/icon.png" class="w-6 h-auto" />
             </span>
         </div>
 

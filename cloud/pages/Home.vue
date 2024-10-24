@@ -1,5 +1,5 @@
 <template>
-    <HeaderView
+    <Header
         @closePanel="closePanel"
         title="Dashboard"
      />
@@ -240,32 +240,3 @@
         </section>
     </main>
 </template>
-
-<script>
-/* Import components. */
-import HeaderView from '@/components/HeaderView'
-
-export default {
-    components: {
-        HeaderView,
-    },
-    data: () => ({
-        //
-    }),
-    computed: {
-        //
-    },
-    methods: {
-        closePanel() {
-            this.$emit('closePanel')
-        },
-
-    },
-    created: function () {
-        //
-    },
-    mounted: function () {
-        //
-    },
-}
-</script>

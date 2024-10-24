@@ -89,12 +89,16 @@ export const useWalletStore = defineStore('wallet', {
     },
 
     actions: {
+        async init() {
+            // TODO
+        },
+
         async initWeb3() {
             /* Set Smartstarter Address. */
             const addr = '0xDbd91DD51A3152cB26f0b3AcaDE6E25910E71F10'
 
             /* Set Smartstarter ABI. */
-            const abi = require('./contracts/SubnetGuru.json')
+            const abi = {}//require('./contracts/SubnetGuru.json')
 
             /* Initialize provider. */
             const provider = new ethers.providers

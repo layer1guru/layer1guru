@@ -21,29 +21,3 @@
         </div>
     </header>
 </template>
-
-<script>
-export default {
-    props: {
-        title: String,
-    },
-    data: () => ({
-        //
-    }),
-    computed: {
-        //
-    },
-    methods: {
-        closePanel() {
-            this.$emit('closePanel')
-        },
-
-    },
-    created: function () {
-        //
-    },
-    mounted: function () {
-        //
-    },
-}
-</script>

@@ -83,7 +83,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <Header />
+    <!-- <Header /> -->
 
     <div class="pt-32">
         <slot />

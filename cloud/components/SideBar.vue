@@ -1,3 +1,53 @@
+<script setup lang="ts">
+/* Define properties. */
+// https://vuejs.org/guide/components/props.html#props-declaration
+const props = defineProps({
+    gurus: Object,
+    selectedGuru: String,
+    selectedSubnet: String,
+})
+
+const emit = defineEmits(['showGurus', 'showSubnets', 'openPanel'])
+
+const router = useRouter()
+
+const gurus = ref(null)
+
+const toggleGurus = () => {
+    emit('showGurus')
+}
+
+const toggleSubnets = () => {
+    emit('showSubnets')
+}
+
+const toggleToolbox = () => {
+    /* Open the (side) panel. */
+    emit('openPanel')
+
+    /* Load (my) gurus. */
+    router.push('/toolbox')
+}
+
+const toggleReports = () => {
+    alert('coming soon..')
+}
+
+const init = () => {
+    /* Initialize Gurus. */
+    gurus.value = []
+}
+
+onMounted(() => {
+    init()
+})
+
+// onBeforeUnmount(() => {
+//     console.log('Before Unmount!')
+//     // Now is the time to perform all cleanup operations.
+// })
+</script>
+
 <template>
     <!-- Account profile -->
     <main class="bg-white xl:w-64 xl:flex-shrink-0 xl:border-r xl:border-gray-200">
@@ -78,7 +128,7 @@
                         <div class="flex items-center space-x-2">
                             <svg class="w-6 h-6 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
 
-                            <span class="text-sm font-medium text-gray-500">
+                            <span v-if="gurus" class="text-sm font-medium text-gray-500">
                                 <span class="text-rose-700 text-xl">{{gurus.length}}x</span>
                                 Connected Gurus
                             </span>
@@ -118,47 +168,3 @@
         </div>
     </main>
 </template>
-
-<script>
-export default {
-    props: {
-        gurus: Object,
-        selectedGuru: String,
-        selectedSubnet: String,
-    },
-    data: () => ({
-        //
-    }),
-    computed: {
-        //
-    },
-    methods: {
-        toggleGurus() {
-            this.$emit('showGurus')
-        },
-
-        toggleSubnets() {
-            this.$emit('showSubnets')
-        },
-
-        toggleToolbox() {
-            /* Open the (side) panel. */
-            this.$emit('openPanel')
-
-            /* Load (my) gurus. */
-            this.$router.push('/toolbox')
-        },
-
-        toggleReports() {
-            alert('coming soon..')
-        },
-
-    },
-    created: function () {
-        //
-    },
-    mounted: function () {
-        //
-    },
-}
-</script>
