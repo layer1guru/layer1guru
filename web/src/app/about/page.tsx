@@ -113,13 +113,21 @@ export default function About() {
                             Follow on StackExchange
                         </SocialLink>
 
-                        <SocialLink
-                            href="mailto:nyusternie@protonmail.com"
-                            icon={MailIcon}
-                            className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-                        >
-                            nyusternie@protonmail.com
-                        </SocialLink>
+                        <div className="mt-8 flex flex-row gap-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
+                            <SocialLink
+                                href="https://sdot.io"
+                                icon={MailIcon}
+                            >
+                                SDOT.io
+                            </SocialLink>
+
+                            <SocialLink
+                                href="https://apecs.dev"
+                                icon={MailIcon}
+                            >
+                                APECS.dev
+                            </SocialLink>
+                        </div>
                     </ul>
                 </div>
             </div>
