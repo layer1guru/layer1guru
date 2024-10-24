@@ -128,6 +128,26 @@ export default function About() {
                                 APECS.dev
                             </SocialLink>
                         </div>
+
+                        <div className="mt-8 flex flex-col gap-4 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
+                            <h3 className="text-xs text-slate-400 uppercase tracking-widest">
+                                Donation &amp; Support Address ❤️
+                            </h3>
+
+                            <SocialLink
+                                href="https://app.avvy.domains/domains/shomari.avax"
+                                icon={MailIcon}
+                            >
+                                shomari.avax
+                            </SocialLink>
+
+                            <SocialLink
+                                href="https://avascan.info/blockchain/c/address/0x27a9b30DBe015842098F4CD31f0301a1cEE74bfe"
+                                icon={MailIcon}
+                            >
+                                0x27a9b30DBe015842098F4CD31f0301a1cEE74bfe
+                            </SocialLink>
+                        </div>
                     </ul>
                 </div>
             </div>
