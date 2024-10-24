@@ -24,8 +24,8 @@ const welcome = `
 <html>
 <body>
 
-<h2>Welcome to the Subnet Guru API</h2>
-<h3>https://api.subnet.guru</h3>
+<h2>Welcome to the Layer1Guru API</h2>
+<h3>https://api.layer1.guru</h3>
 
 </body>
 </html>

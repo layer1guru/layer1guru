@@ -6,14 +6,14 @@
  */
 const plaintextTemplate = (_msgDetails) => {
     return `
-        Subnet Guru Event
+        Layer1Guru Event
         ----------------------------------------
 
         We just saw a transaction on your watched wallet.
         ${_msgDetails.txid}
 
         ________________________________________
-        https://subnet.guru
+        https://layer1.guru
         brought to you with ❤️ from Ava's DAO
     `
 }

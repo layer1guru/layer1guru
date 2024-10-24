@@ -3,7 +3,7 @@
  */
 const htmlTemplate = (_msgDetails) => {
     return `
-        <h2>Subnet Guru Event</h2>
+        <h2>Layer1Guru Event</h2>
 
         <p>
             i have a <strong>BOLD</strong> body!
@@ -20,8 +20,8 @@ const htmlTemplate = (_msgDetails) => {
         <div style="text-align: center;">
             <hr />
 
-            <a href="https://subnet.guru" style="text-decoration: none;">
-                https://subnet.guru
+            <a href="https://layer1.guru" style="text-decoration: none;">
+                https://layer1.guru
             </a>
 
             <br />

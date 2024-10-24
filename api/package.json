@@ -1,7 +1,7 @@
 {
   "name": "subnet-guru-api",
   "version": "22.9.18",
-  "description": "Subnet GURU API",
+  "description": "Layer1Guru API",
   "author": "Ava's DAO <support@avasdao.org>",
   "main": "server.js",
   "scripts": {

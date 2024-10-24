@@ -38,7 +38,7 @@ struct Args {
 
 /**
  * Main
- * 
+ *
  * Entry point for this application.
  */
 fn main() {
@@ -55,7 +55,7 @@ fn main() {
     // let args = Args::parse();
 
     /* Handle application arguments. */
-    let matches = App::new("Subnet Guru")
+    let matches = App::new("Layer1Guru")
         .version(guru::get_version().as_str())
         .author(env!("CARGO_PKG_AUTHORS"))
         .about(env!("CARGO_PKG_DESCRIPTION"))
@@ -107,10 +107,10 @@ fn main() {
     // };
     // let manifest_path = matches.get_one::<std::path::PathBuf>("manifest-path");
     // println!("{:?}", manifest_path);
-    
+
     // let result = std::fs::read_to_string(&args.config_path);
     // match result {
-    //     Ok(content) => { 
+    //     Ok(content) => {
     //         for line in content.lines() {
     //             if line.contains(&args.pattern) {
     //                 println!("  Look! We found a line ---> {}", line);
@@ -119,9 +119,9 @@ fn main() {
 
     //         println!(); // empty line / spacer
     //     }
-        
-    //     Err(error) => { 
-    //         println!("Oops! Could not read the file you specified.\n\n[ {} ]", error); 
+
+    //     Err(error) => {
+    //         println!("Oops! Could not read the file you specified.\n\n[ {} ]", error);
     //     }
     // }
 
@@ -166,7 +166,7 @@ fn main() {
     // panic!("Oops! What happened??");
 
     // p2p::ipfs::make_request();
-    
+
     // utils::remote::get_ip();
 
     // commander::sys::ping()

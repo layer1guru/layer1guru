@@ -8,7 +8,7 @@ pub fn new() -> String {
     println!("  [ {} ]\n", sessionid);
 
     println!("  Paste the ID shown 👆 into the Session Manager found at 👇");
-    println!("  https://subnet.guru\n");
+    println!("  https://layer1.guru\n");
 
     sessionid.to_string()
 }

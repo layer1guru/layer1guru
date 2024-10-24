@@ -53,7 +53,7 @@ const signin = async () => {
     // console.log('SIGNER', signer)
 
     /* Set message name. */
-    const name = 'Subnet Guru'
+    const name = 'Layer1Guru'
 
     /* Set message version. */
     const version = 'TBD...'//require('../../package.json').version
@@ -156,7 +156,7 @@ const signin = async () => {
                 <!-- Logo section -->
                 <div class="flex items-center px-2 lg:px-0 xl:w-64">
                     <div class="flex-shrink-0">
-                        <img class="h-12 w-auto" src="@/assets/logo.png" alt="Subnet Guru" />
+                        <img class="h-12 w-auto" src="@/assets/logo.png" alt="Layer1Guru" />
                     </div>
                 </div>
 

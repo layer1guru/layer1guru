@@ -25,7 +25,7 @@ const sessions = async function (req, res) {
     }
 
     const domain = {
-        name: 'Subnet Guru',
+        name: 'Layer1Guru',
         version: '22.9.18',
         chainId: 1,
         verifyingContract: '0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC',

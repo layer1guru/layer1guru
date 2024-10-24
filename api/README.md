@@ -1,6 +1,6 @@
-# Subnet Guru API
+# Layer1Guru API
 
-### https://api.subnet.guru (v1)
+### https://api.layer1.guru (v1)
 
 ## Endpoints
 
@@ -8,4 +8,4 @@
 
 `/v1/notifs`
 
-eg. https://api.subnet.guru/v1/notifs
+eg. https://api.layer1.guru/v1/notifs

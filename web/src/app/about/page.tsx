@@ -86,7 +86,7 @@ export default function About() {
                         </p>
 
                         <p>
-                            This project started about 2 years ago as Subnet Guru, during my 1st Avalanche + Moralis hackathon back in Jan ’22.
+                            This project started about 2 years ago as Layer1Guru, during my 1st Avalanche + Moralis hackathon back in Jan ’22.
                             I dropped the personal effort in favor or working on a SocialFi team.
                             Well.. now I’m back to complete this work and deliver a blast of NEW value to the Avalanche ecosystem.
                         </p>
