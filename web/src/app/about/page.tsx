@@ -94,8 +94,12 @@ export default function About() {
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                         <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            Shomari’s SysAdmins
+                            Shomari’s Admins
                         </h2>
+
+                        <Link href="/about/admins" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                            Click to learn more...
+                        </Link>
 
                         <p className="text-sm leading-6">
                             Local Hosts can be easily deployed on almost ANY platform, including:
@@ -103,8 +107,12 @@ export default function About() {
                         </p>
 
                         <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
-                            Each SysAdmin unlocks ALL PRO CLASS features for (x1) Node Runner at NO additional charge.
+                            Each ADMIN unlocks ALL PRO CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
                         </h3>
+
+                        <Link href="/mint" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
+                            Mint Your Own Admin
+                        </Link>
 
                         <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
                             TOP Benefits for PRO CLASS
@@ -156,13 +164,21 @@ export default function About() {
                             Shomari’s Gurus
                         </h2>
 
+                        <Link href="/about/gurus" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                            Click to learn more...
+                        </Link>
+
                         <p className="text-sm leading-6">
                             Gurus can be created directly from the Cloud.
                         </p>
 
                         <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
-                            Each Guru unlocks ALL ELITE CLASS features for (x1) Node Runner at NO additional charge, until their STAMINA runs out.
+                            Each GURU unlocks ALL ELITE CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
                         </h3>
+
+                        <Link href="/mint" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
+                            Mint Your Own Guru
+                        </Link>
 
                         <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
                             TOP Benefits for ELITE CLASS

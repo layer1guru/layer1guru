@@ -11,38 +11,38 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Nexa MetaNet',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'MetaNet is the premier solution for extending Turing complete smart contracts to UTXO-based networks like Bitcoin, Bitcoin Cash and Nexa.',
+    link: { href: '/showcase/metanet', label: 'nexa.sh' },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
+    name: 'Nxy Oasis',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'Oasis networks offer an UNCENSORABLE platform for Radical Builders to grow and profit from their OWN economies.',
+    link: { href: '/showcase/oasis', label: 'nxy.social' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'TΞLR Concierge',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'Hybrid asset exchange network.',
+    link: { href: '/showcase/telr', label: 'telr.exchange' },
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Coincun',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+      'A real-money betting network. Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: '/showcase/coincun', label: 'coincun.cr' },
+    logo: logoHelioStream,
+  },
+  {
+    name: 'MUL8',
+    description:
+      'Retro gaming network. High performance web animation library, hand-written in optimized WASM.',
+    link: { href: '/showcase/mul8', label: 'mul8.gaming' },
     logo: logoOpenShuttle,
   },
 ]
@@ -63,11 +63,12 @@ export const metadata: Metadata = {
   description: 'Take a tour of what is being built with Layer1Guru...',
 }
 
-export default function Projects() {
+export default function Showcase() {
   return (
     <SimpleLayout
-      title="Featured Showcase"
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="L1/VM Showcase"
+      intro="Over the last few decades, I’ve worked on tons of little projects, but these are the ones with enough Product-Market-Fit (PMF) to mature into their own independent Virtual Machines (VMs) with economically sustainable networks.
+      ALL VMs are Free and Open-source Software (FOSS), so check out the code and contribute if you have ideas for how they can be improved."
     >
       <ul
         role="list"

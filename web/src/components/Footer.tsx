@@ -27,7 +27,8 @@ export function Footer() {
                     <ContainerInner>
                         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
                             <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                                <NavLink href="https://cloud.layer1.guru" target="_blank">Cloud</NavLink>
+                                <NavLink href="/mint">Mint!</NavLink>
+                                <NavLink href="javascript://">Cloud</NavLink>
                                 <NavLink href="/downloads">Downloads</NavLink>
                                 <NavLink href="/showcase">Showcase</NavLink>
                                 <NavLink href="/wip">WIP</NavLink>
