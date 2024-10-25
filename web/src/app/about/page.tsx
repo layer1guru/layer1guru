@@ -68,18 +68,18 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="lg:order-first lg:row-span-2">
+                <div className="lg:order-first lg:row-span-2 flex flex-col gap-12">
                     <h1 className="text-4xl font-light tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                         <span className="block text-amber-400 text-6xl">I’m Shomari</span>
                         I spend most of my time in
                         <span className="px-2 text-rose-500">Atlanta Georgia</span>
                         writing
-                        <span className="block font-bold font-mono text-sky-400 tracking-wider">
+                        <span className="pt-1 block font-bold font-mono text-sky-400 tracking-wider">
                             UNSTOPPABLE C0d3
                         </span>
                     </h1>
 
-                    <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+                    <section className="-mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                         <p>
                             I LOVE building things that are permissionless and trustless.
                             Avalanche Layer 1 blockchains <em>(formerly Subnets)</em> offer the tools and resource required to power that ambition.
@@ -90,13 +90,120 @@ export default function About() {
                             I dropped the personal effort in favor or working on a SocialFi team.
                             Well.. now I’m back to complete this work and deliver a blast of NEW value to the Avalanche ecosystem.
                         </p>
+                    </section>
 
+                    <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                        <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
+                            Shomari’s SysAdmins
+                        </h2>
+
+                        <p className="text-sm leading-6">
+                            Local Hosts can be easily deployed on almost ANY platform, including:
+                            <span className="block">Windows, Mac and Linux.</span>
+                        </p>
+
+                        <h3 className="text-center text-xs text-rose-400 tracking-widest italic">
+                            Enables SysAdmin features at NO additional charge
+                        </h3>
+
+                        <ol className="pl-10 list-decimal">
+                            <li>
+                                Effortlessly DEPLOY Layer1 blockchains
+                            </li>
+
+                            <li>
+                                Effortlessly maintain your nodes INTEGRITY &amp; HEALTH
+                            </li>
+
+                            <li>
+                                Effortlessly SECURE your node against threats
+                            </li>
+
+                            <li>
+                                Effortlessly BACKUP your data against disasters
+                            </li>
+
+                            <li>
+                                Perform One-click ADD-ON installations:
+
+                                <ol className="pl-10 list-disc">
+                                    <li>Block explorers</li>
+                                    <li>and more...</li>
+                                </ol>
+                            </li>
+
+                            <li>
+                                Perform One-click node MANAGEMENT:
+
+                                <ol className="pl-10 list-disc">
+                                    <li>Daily, weekly and monthly reporting</li>
+                                    <li>plus much more...</li>
+                                </ol>
+                            </li>
+                        </ol>
+
+                        <Link href="https://docs.layer1.guru" target="_blank" className="uppercase text-xs text-sky-500 tracking-wider hover:text-sky-400 hover:underline">
+                            Read more in the Docs...
+                        </Link>
+                    </section>
+
+                    <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                        <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
+                            Shomari’s Gurus
+                        </h2>
+
+                        <p className="text-sm leading-6">
+                            Gurus can be created directly from the Cloud.
+                        </p>
+
+                        <h3 className="text-center text-xs text-rose-400 tracking-widest italic">
+                            Enables Guru features at NO additional charge
+                        </h3>
+
+                        <ol className="pl-10 list-decimal">
+                            <li>
+                                Fine-tune each and every detail with One-click node configurations &amp; installations:
+
+                                <ol className="pl-10 list-disc">
+                                    <li>Security &amp; monitoring</li>
+                                    <li>plus much more...</li>
+                                </ol>
+                            </li>
+
+                            <li>
+                                Customize your network using One-click Precompiles:
+
+                                <ol className="pl-10 list-disc">
+                                    <li>Account Abstraction (ERC-4337)</li>
+                                    <li>and more...</li>
+                                </ol>
+                            </li>
+
+                            <li>
+                                Effortlessly deploy a Testnet faucet (w/ bot resistance) for each of your assets.
+                            </li>
+
+                            <li>
+                                TBD:
+
+                                <span className="block">
+                                    tbd...
+                                </span>
+                            </li>
+                        </ol>
+
+                        <Link href="https://docs.layer1.guru" target="_blank" className="uppercase text-xs text-sky-500 tracking-wider hover:text-sky-400 hover:underline">
+                            Read more in the Docs...
+                        </Link>
+                    </section>
+
+                    <section className="flex flex-row gap-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
+                    {/* <section className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400"> */}
                         <p>
                             Take a moment to check out the <Link href="javascript://">INTERACTIVE DEMO</Link>.
                             And don’t hesitate to leave some feedback in <Link href="https://arena.social/0xShomari" className="text-sky-500 font-bold hover:text-sky-400" target="_blank">The Arena!</Link>
                         </p>
-
-                    </div>
+                    </section>
                 </div>
 
                 <div className="lg:pl-20">
@@ -133,6 +240,10 @@ export default function About() {
                             <h3 className="text-xs text-slate-400 uppercase tracking-widest">
                                 Donation &amp; Support Address ❤️
                             </h3>
+
+                            <p className="text-xs italic">
+                                <Link href="/legal" className="font-bold text-amber-500 hover:text-amber-400 hover:underline">Legal Defense</Link> is an unfortunate reality of Living The Crypto Life.
+                            </p>
 
                             <SocialLink
                                 href="https://app.avvy.domains/domains/shomari.avax"
