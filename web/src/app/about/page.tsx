@@ -102,8 +102,12 @@ export default function About() {
                             <span className="block">Windows, Mac and Linux.</span>
                         </p>
 
-                        <h3 className="text-center text-xs text-rose-400 tracking-widest italic">
-                            Enables SysAdmin features at NO additional charge
+                        <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
+                            Each SysAdmin unlocks ALL PRO CLASS features for (x1) Node Runner at NO additional charge.
+                        </h3>
+
+                        <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
+                            TOP Benefits for PRO CLASS
                         </h3>
 
                         <ol className="pl-10 list-decimal">
@@ -156,8 +160,12 @@ export default function About() {
                             Gurus can be created directly from the Cloud.
                         </p>
 
-                        <h3 className="text-center text-xs text-rose-400 tracking-widest italic">
-                            Enables Guru features at NO additional charge
+                        <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
+                            Each Guru unlocks ALL ELITE CLASS features for (x1) Node Runner at NO additional charge, until their STAMINA runs out.
+                        </h3>
+
+                        <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
+                            TOP Benefits for ELITE CLASS
                         </h3>
 
                         <ol className="pl-10 list-decimal">
