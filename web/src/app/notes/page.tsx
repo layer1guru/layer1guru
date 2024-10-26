@@ -23,8 +23,10 @@ function Article({ article }: { article: ArticleWithSlug }) {
                 </Card.Eyebrow>
 
                 <Card.Description>{article.description}</Card.Description>
+
                 <Card.Cta>Read article</Card.Cta>
             </Card>
+
             <Card.Eyebrow
                 as="time"
                 dateTime={article.date}
@@ -39,24 +41,24 @@ function Article({ article }: { article: ArticleWithSlug }) {
 export const metadata: Metadata = {
     title: 'Notes & Guides',
     description:
-        'A collection of my thoughts and ideas on Layer1 development — curated in chronological order.',
+        'A collection of my thoughts and ideas on Layer1 development.',
 }
 
 export default async function ArticlesIndex() {
-  let articles = await getAllArticles()
+    let articles = await getAllArticles()
 
-  return (
-    <SimpleLayout
-      title="Work-In-Progress"
-      intro="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
-    >
-      <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
-        <div className="flex max-w-3xl flex-col space-y-16">
-          {articles.map((article) => (
-            <Article key={article.slug} article={article} />
-          ))}
-        </div>
-      </div>
-    </SimpleLayout>
-  )
+    return (
+        <SimpleLayout
+            title="Notes & Guides"
+            intro="A collection of my thoughts and ideas on Layer1 development — curated in chronological order, for your convenience."
+        >
+            <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+                <div className="flex max-w-3xl flex-col space-y-16">
+                    {articles.map((article) => (
+                        <Article key={article.slug} article={article} />
+                    ))}
+                </div>
+            </div>
+        </SimpleLayout>
+    )
 }

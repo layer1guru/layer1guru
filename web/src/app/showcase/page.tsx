@@ -6,10 +6,18 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
+import logoNxy from '@/images/logos/nxy.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
+    {
+        name: 'The Nxy Oasis',
+        description:
+            'The premier Oasis community — providing an UNCENSORABLE Layer 1 network for Radical Builders to grow and profit from their OWNED token economies.',
+        link: { href: '/showcase/oasis', label: 'nxy.social' },
+        logo: logoNxy,
+    },
     {
         name: 'Nexa MetaNet',
         description:
@@ -18,11 +26,11 @@ const projects = [
         logo: logoPlanetaria,
     },
     {
-        name: 'Nxy Oasis',
+        name: 'Nxy Supernet',
         description:
-            'Oasis networks offer an UNCENSORABLE platform for Radical Builders to grow and profit from their OWN economies.',
-        link: { href: '/showcase/oasis', label: 'nxy.social' },
-        logo: logoAnimaginary,
+            'A Layer 1+ network running on top of Nexa’s 100K+ TPS blockchain — leveraging the performance benefits of parallel (threaded) transaction execution at very little OR even no cost to users.',
+        link: { href: '/showcase/supernet', label: 'nxy.social' },
+        logo: logoNxy,
     },
     {
         name: 'TΞLR Concierge',
@@ -32,11 +40,18 @@ const projects = [
         logo: logoCosmos,
     },
     {
-        name: 'Coincun Costa Rica',
+        name: 'Coincun: Costa Rica',
         description:
             'A real-money betting network. Creating technology to empower civilians to explore space on their own terms.',
         link: { href: '/showcase/coincun', label: 'coincun.cr' },
         logo: logoHelioStream,
+    },
+    {
+        name: 'GWAP NYC',
+        description:
+            'Go With A Pro is a high volume, gallery-style marketplace for delivery services and short-term gig offers — driven primarily by community engagement and token incentives.',
+        link: { href: '/showcase/gwap', label: 'gwap.nyc' },
+        logo: logoPlanetaria,
     },
     {
         name: 'MUL8: Greatest Games',
@@ -46,11 +61,11 @@ const projects = [
         logo: logoOpenShuttle,
     },
     {
-        name: 'GWAP NYC',
+        name: 'Kingdom of Nxy',
         description:
-            'Go With A Pro is a high volume, gallery-style marketplace for delivery services and short-term gig offers — driven primarily by community engagement and token incentives.',
-        link: { href: '/showcase/gwap', label: 'gwap.nyc' },
-        logo: logoHelioStream,
+            'A free & open Layer 2 community for Builders.',
+        link: { href: '/showcase/kingdom', label: 'nxy.social' },
+        logo: logoNxy,
     },
 ]
 
