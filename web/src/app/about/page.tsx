@@ -224,7 +224,7 @@ export default function About() {
                     <section className="flex flex-row gap-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
                     {/* <section className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400"> */}
                         <p>
-                            Take a moment to check out the <Link href="javascript://">INTERACTIVE DEMO</Link>.
+                            Take a moment to check out the <Link href="#">INTERACTIVE DEMO</Link>.
                             And don’t hesitate to leave some feedback in <Link href="https://arena.social/0xShomari" className="text-sky-500 font-bold hover:text-sky-400" target="_blank">The Arena!</Link>
                         </p>
                     </section>

@@ -282,17 +282,17 @@ export default async function Home() {
             <Container className="mt-9">
                 <div className="max-w-2xl">
                     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                        Learn to Design, Launch &amp; Manage <span className="italic text-sky-400">LIMITLESS</span> L1s — then realize your <span className="italic text-rose-400">WILDEST</span> dreams!
+                        Learn to Design, Launch &amp; Manage <span className="italic text-sky-400">LIMITLESS</span> L1s — then realize your <span className="italic text-fuchsia-400">WILDEST</span> dreams!
                     </h1>
 
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-300 leading-8 tracking-wider">
                         I’m Shomari, an OG crypto enthusiast and passionate serial entrepreneur living in Atlanta Georgia.
-                        It’s my pleasure to introduce to ALL of the talented <Link href="https://www.avax.network/retro9000" target="_blank" className="font-bold text-blue-400 text-lg hover:text-blue-300 hover:underline">Avalanche Retro9000</Link> builders an <span className="text-lg font-bold text-fuchsia-400">EP!C Infra &amp; Tooling Suite</span> — that I’ve been working tirelessly on materializing for the last 3 years...
+                        It’s my pleasure to introduce you to an <span className="text-lg font-bold text-slate-100">EP!C Infra &amp; Tooling Suite</span> — that I’ve been working tirelessly to materialize for the last 3 years...
 
                     </p>
 
-                    <h3 className="block text-xl font-bold tracking-widest">
-                        Are you ready?
+                    <h3 className="mt-3 block text-xl font-bold tracking-widest">
+                        RU #BUIDLing for <Link href="https://www.avax.network/retro9000" target="_blank" className="font-bold text-rose-400 text-lg hover:text-rose-300 hover:underline">AVAX Retro9000</Link>?
                         <span className="block">Class Starts NOW!</span>
                     </h3>
 

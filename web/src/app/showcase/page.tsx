@@ -48,7 +48,7 @@ const projects = [
     {
         name: 'GWAP NYC',
         description:
-            'Go With A Pro is a high volume marketplace for short-term & gig ads — driven primarily by community engagement and token incentives.',
+            'Go With A Pro is a high volume, gallery-style marketplace for delivery services and short-term gig offers — driven primarily by community engagement and token incentives.',
         link: { href: '/showcase/gwap', label: 'gwap.nyc' },
         logo: logoHelioStream,
     },

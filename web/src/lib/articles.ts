@@ -14,7 +14,7 @@ export interface ArticleWithSlug extends Article {
 async function importArticle(
   articleFilename: string,
 ): Promise<ArticleWithSlug> {
-  let { article } = (await import(`../app/wip/${articleFilename}`)) as {
+  let { article } = (await import(`../app/notes/${articleFilename}`)) as {
     default: React.ComponentType
     article: Article
   }
@@ -27,7 +27,7 @@ async function importArticle(
 
 export async function getAllArticles() {
   let articleFilenames = await glob('*/page.mdx', {
-    cwd: './src/app/wip',
+    cwd: './src/app/notes',
   })
 
   let articles = await Promise.all(articleFilenames.map(importArticle))
