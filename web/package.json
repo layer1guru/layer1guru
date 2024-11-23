@@ -1,6 +1,6 @@
 {
   "name": "layer1-guru-web",
-  "version": "24.10.24",
+  "version": "24.11.22",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
@@ -19,6 +19,7 @@
     "@types/node": "20.10.8",
     "@types/react": "18.2.47",
     "@types/react-dom": "18.2.18",
+    "@types/tailwindcss": "3.1.0",
     "@types/webpack-env": "1.18.1",
     "autoprefixer": "10.4.12",
     "cheerio": "1.0.0-rc.12",
