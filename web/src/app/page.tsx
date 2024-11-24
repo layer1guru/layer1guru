@@ -286,13 +286,14 @@ export default async function Home() {
                     </h1>
 
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-300 leading-8 tracking-wider">
-                        I’m Shomari, an OG crypto enthusiast and passionate serial entrepreneur living in Atlanta Georgia.
-                        It’s my pleasure to introduce you to an <span className="text-lg font-bold text-slate-100">EP!C Infra &amp; Tooling Suite</span> — that I’ve been working tirelessly to materialize for the last 3 years...
+                        I’m Shomari, an OG crypto enthusiast and passionate serial entrepreneur loving life in Atlanta Georgia.
+                        It’s my pleasure to introduce you to an <span className="text-lg font-bold text-slate-100">Layer 1 Infra &amp; Tooling Suite</span>
+                        — I’ve been working to materialize for the last 3 years...
 
                     </p>
 
                     <h3 className="mt-3 block text-xl font-bold tracking-widest">
-                        RU #BUIDLing for <Link href="https://www.avax.network/retro9000" target="_blank" className="font-bold text-rose-400 text-lg hover:text-rose-300 hover:underline">AVAX Retro9000</Link>?
+                        RU #BUIDLing for <Link href="https://www.avax.network/retro9000" target="_blank" className="font-bold text-rose-400 text-lg hover:text-rose-300 hover:underline">AVAX retro9000</Link>?
                         <span className="block">Class Starts NOW!</span>
                     </h3>
 
