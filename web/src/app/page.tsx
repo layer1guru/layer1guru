@@ -287,7 +287,7 @@ export default async function Home() {
 
                     <p className="mt-6 text-base text-zinc-600 dark:text-zinc-300 leading-8 tracking-wider">
                         I’m Shomari, an OG crypto enthusiast and passionate serial entrepreneur loving life in Atlanta Georgia.
-                        It’s my pleasure to introduce you to an <span className="text-lg font-bold text-slate-100">Layer 1 Infra &amp; Tooling Suite</span>
+                        It’s my pleasure to introduce you to an exquisite <span className="text-lg font-bold text-slate-100">Layer-1 Infra &amp; Utility Suite</span>
                         — I’ve been working to materialize for the last 3 years...
 
                     </p>

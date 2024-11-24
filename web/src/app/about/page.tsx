@@ -94,10 +94,10 @@ export default function About() {
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                         <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            Shomari’s Admins
+                            Layer1 Node Runner
                         </h2>
 
-                        <Link href="/about/admins" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                        <Link href="/about/node-runner" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
                             Click to learn more...
                         </Link>
 
@@ -106,16 +106,8 @@ export default function About() {
                             <span className="block">Windows, Mac and Linux.</span>
                         </p>
 
-                        <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
-                            Each ADMIN unlocks ALL PRO CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
-                        </h3>
-
-                        <Link href="/mint" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
-                            Mint Your Own Admin
-                        </Link>
-
                         <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
-                            TOP Benefits for PRO CLASS
+                            TOP Benefits for GUEST CLASS
                         </h3>
 
                         <ol className="pl-10 list-decimal">
@@ -161,7 +153,7 @@ export default function About() {
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                         <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            Shomari’s Gurus
+                            Layer1 Gurus
                         </h2>
 
                         <Link href="/about/gurus" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
@@ -173,7 +165,7 @@ export default function About() {
                         </p>
 
                         <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
-                            Each GURU unlocks ALL ELITE CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
+                            Each GURU unlocks ALL PRO CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
                         </h3>
 
                         <Link href="/mint" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
@@ -181,7 +173,7 @@ export default function About() {
                         </Link>
 
                         <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
-                            TOP Benefits for ELITE CLASS
+                            TOP Benefits for PRO CLASS
                         </h3>
 
                         <ol className="pl-10 list-decimal">

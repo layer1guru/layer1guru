@@ -31,7 +31,7 @@ export function Footer() {
                                 <NavLink href="#">Cloud</NavLink>
                                 <NavLink href="/downloads">Downloads</NavLink>
                                 <NavLink href="/showcase">Showcase</NavLink>
-                                <NavLink href="/notes">Notes</NavLink>
+                                <NavLink href="/qa">Q & A</NavLink>
                                 <NavLink href="/about">About</NavLink>
                             </div>
 
