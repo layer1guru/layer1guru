@@ -20,7 +20,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
+import { type AnswerWithSlug, getAllAnswers } from '@/lib/answers'
 import { formatDate } from '@/lib/formatDate'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -82,7 +82,7 @@ function ArrowDownIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   )
 }
 
-function Article({ article }: { article: ArticleWithSlug }) {
+function Answer({ article }: { article: AnswerWithSlug }) {
     return (
         <Card as="article">
             <Card.Title href={`/articles/${article.slug}`}>
@@ -275,7 +275,7 @@ function Photos() {
 }
 
 export default async function Home() {
-    let articles = (await getAllArticles()).slice(0, 4)
+    let articles = (await getAllAnswers()).slice(0, 4)
 
     return (
         <>
@@ -324,7 +324,7 @@ export default async function Home() {
                 <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
                     <div className="flex flex-col gap-16">
                         {articles.map((article) => (
-                            <Article key={article.slug} article={article} />
+                            <Answer key={article.slug} article={article} />
                         ))}
                     </div>
                     <div className="space-y-10 lg:pl-16 xl:pl-24">
