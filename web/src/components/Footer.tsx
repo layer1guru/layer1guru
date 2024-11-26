@@ -48,13 +48,13 @@ export function Footer() {
                                 <NavLink href="/market">Market</NavLink>
                                 <NavLinkBlank href="https://cloud.layer1.guru">Cloud</NavLinkBlank>
                                 <NavLink href="/downloads">Downloads</NavLink>
-                                <NavLink href="/showcase">Showcase</NavLink>
+                                {/* <NavLink href="/showcase">Showcase</NavLink> */}
                                 <NavLink href="/qa">Q & A</NavLink>
                                 <NavLink href="/about">About</NavLink>
                             </div>
 
                             <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                                &copy; {new Date().getFullYear()} Layer1Guru.
+                                &copy; {new Date().getFullYear()} L1 GÜRŲ.
                                 All rights reserved.
                             </p>
                         </div>

@@ -82,7 +82,7 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
     title: 'Showcase',
-    description: 'Take a tour of what is being built with Layer1Guru...',
+    description: 'Take a tour of what is being built with L1 GÜRŲ...',
 }
 
 export default function Showcase() {

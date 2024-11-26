@@ -36,65 +36,42 @@ function Tool({
 }
 
 export const metadata = {
-    title: 'Mint & Trade Your Specialists',
-    description: 'Minting is coming soon...',
+    title: 'Marketplace',
+    description: 'Mint & Trade Your Specials',
 }
 
 export default function Market() {
     return (
         <SimpleLayout
-            title="Mint & Trade Your Specialists"
-            intro="NFT minting will be available soon..."
+            title="Marketplace"
+            intro="Mint & Trade Your Specials and Gurus from this convenient marketplace."
         >
             <div className="space-y-20">
-                <ToolsSection title="Admins">
-                    <Tool title="">
-                        I was using an Intel-based 16” MacBook Pro prior to this and the
-                        difference is night and day. I’ve never heard the fans turn on a
-                        single time, even under the incredibly heavy loads I put it through
-                        with our various launch simulations.
+                <ToolsSection title="MINTING Season One">
+                    <Tool title="The GURUS">
+                        Buy Now is 1.00 $AVAX for the 1st 60 minutes.
+                        The price is reduced by 1/2 every 60 minutes afterwards.
+                        The minimum price is 0.01 $AVAX.
+
+                        <p className="flex mt-5 text-base text-rose-400 italic">
+                            NOTE: Purchases made during the &rdquo;Buy Now&ldquo; phase
+                            will automatically DOUBLE the &rdquo;Buy Now&ldquo; price.
+                        </p>
                     </Tool>
 
-                    <Tool title="Apple Pro Display XDR (Standard Glass)">
-                        The only display on the market if you want something HiDPI and
-                        bigger than 27”. When you’re working at planetary scale, every pixel
-                        you can get counts.
-                    </Tool>
+                    <Tool title="The SPECIALS">
+                        You can purchase Specials directly from the Cloud or ANY GÜRŲ client.
+                        Add one or more Specials to ANY of your personal, team and project profiles to enable GÜRŲ PRO features.
 
-                    <Tool title="IBM Model M SSK Industrial Keyboard">
-                        They don’t make keyboards the way they used to. I buy these any time
-                        I see them go up for sale and keep them in storage in case I need
-                        parts or need to retire my main.
-                    </Tool>
-
-                    <Tool title="Apple Magic Trackpad">
-                        Something about all the gestures makes me feel like a wizard with
-                        special powers. I really like feeling like a wizard with special
-                        powers.
-                    </Tool>
-
-                    <Tool title="Herman Miller Aeron Chair">
-                        If I’m going to slouch in the worst ergonomic position imaginable
-                        all day, I might as well do it in an expensive chair.
+                        <p className="flex mt-5 text-base text-fuchsia-400 italic">
+                            Registered profiles get a 75% DISCOUNT during Retro9000!
+                        </p>
                     </Tool>
                 </ToolsSection>
 
-                <ToolsSection title="Gurus">
-                    <Tool title="Sublime Text 4">
-                        I don’t care if it’s missing all of the fancy IDE features everyone
-                        else relies on, Sublime Text is still the best text editor ever
-                        made.
-                    </Tool>
-
-                    <Tool title="iTerm2">
-                        I’m honestly not even sure what features I get with this that aren’t
-                        just part of the macOS Terminal but it’s what I use.
-                    </Tool>
-
-                    <Tool title="TablePlus">
-                        Great software for working with databases. Has saved me from
-                        building about a thousand admin interfaces for my various projects
-                        over the years.
+                <ToolsSection title="ASSET TRADING">
+                    <Tool title="JoePegs">
+                        Easily find buyers & sellers in https://joepegs.com/.
                     </Tool>
                 </ToolsSection>
             </div>

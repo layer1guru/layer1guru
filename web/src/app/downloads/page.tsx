@@ -83,7 +83,7 @@ export default function Speaking() {
                 <SpeakingSection title="For Your DESKTOP">
                     <Appearance
                         href="#"
-                        title="L1 GÜRÜ for Windows"
+                        title="L1 GÜRŲ for Windows"
                         description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
                         event="Windows 10+"
                         cta="Click for download"
@@ -91,7 +91,7 @@ export default function Speaking() {
 
                     <Appearance
                         href="#"
-                        title="L1 GÜRÜ for Mac OSX"
+                        title="L1 GÜRŲ for Mac OSX"
                         description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
                         event="Mac OSX 15.x+"
                         cta="Click for download"
@@ -99,7 +99,7 @@ export default function Speaking() {
 
                     <Appearance
                         href="#"
-                        title="L1 GÜRÜ for Ubuntu/Debian"
+                        title="L1 GÜRŲ for Ubuntu/Debian"
                         description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
                         event="Linux"
                         cta="Click for download"
@@ -109,7 +109,7 @@ export default function Speaking() {
                 <SpeakingSection title="For Your MOBILE">
                     <Appearance
                         href="#"
-                        title="L1 GŪRÜ Nightly Edition"
+                        title="L1 GÜRŲ Nightly Edition"
                         description="How we used world-class visual design to attract a great team, win over customers, and get more press for Planetaria."
                         event="Android APK"
                         cta="Click for download"
@@ -117,7 +117,7 @@ export default function Speaking() {
 
                     <Appearance
                         href="#"
-                        title="L1 GŪRÜ FOSS Edition"
+                        title="L1 GÜRŲ FOSS Edition"
                         description="The story of how we built one of the most promising space startups in the world without taking any capital from investors."
                         event="F-Droid Market"
                         cta="Click for download"
@@ -125,7 +125,7 @@ export default function Speaking() {
 
                     <Appearance
                         href="#"
-                        title="L1 GŪRÜ App Store Edition"
+                        title="L1 GÜRŲ App Store Edition"
                         description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
                         event="App Store"
                         cta="Click for download"
@@ -133,7 +133,7 @@ export default function Speaking() {
 
                     <Appearance
                         href="#"
-                        title="L1 GŪRÜ Play Store Edition"
+                        title="L1 GÜRŲ Play Store Edition"
                         description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
                         event="Play Store"
                         cta="Click for download"

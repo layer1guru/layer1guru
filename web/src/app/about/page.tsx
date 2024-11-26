@@ -86,7 +86,7 @@ export default function About() {
                         </p>
 
                         <p>
-                            This project started about 2 years ago as Layer1Guru, during my 1st Avalanche + Moralis hackathon back in Jan ’22.
+                            This project started about 2 years ago as Subnet.Guru, during my 1st Avalanche + Moralis hackathon back in Jan ’22.
                             I dropped the personal effort in favor or working on a SocialFi team.
                             Well.. now I’m back to complete this work and deliver a blast of NEW value to the Avalanche ecosystem.
                         </p>
@@ -94,7 +94,7 @@ export default function About() {
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                         <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            Layer1 Node Runner
+                            Node Runner
                         </h2>
 
                         <Link href="/about/node-runner" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
@@ -153,7 +153,69 @@ export default function About() {
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                         <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            Layer1 Gurus
+                            The Specials
+                        </h2>
+
+                        <Link href="/about/specials" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                            Click to learn more...
+                        </Link>
+
+                        <p className="text-sm leading-6">
+                            Gurus can be created directly from the Cloud.
+                        </p>
+
+                        <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
+                            Each GURU unlocks ALL PRO CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
+                        </h3>
+
+                        <Link href="/market" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
+                            Mint Your Own Special
+                        </Link>
+
+                        <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
+                            TOP Benefits for PRO CLASS
+                        </h3>
+
+                        <ol className="pl-10 list-decimal">
+                            <li>
+                                Fine-tune each and every detail with One-click node configurations &amp; installations:
+
+                                <ol className="pl-10 list-disc">
+                                    <li>Security &amp; monitoring</li>
+                                    <li>plus much more...</li>
+                                </ol>
+                            </li>
+
+                            <li>
+                                Customize your network using One-click Precompiles:
+
+                                <ol className="pl-10 list-disc">
+                                    <li>Account Abstraction (ERC-4337)</li>
+                                    <li>and more...</li>
+                                </ol>
+                            </li>
+
+                            <li>
+                                Effortlessly deploy a Testnet faucet (w/ bot resistance) for each of your assets.
+                            </li>
+
+                            <li>
+                                TBD:
+
+                                <span className="block">
+                                    tbd...
+                                </span>
+                            </li>
+                        </ol>
+
+                        <Link href="https://docs.layer1.guru" target="_blank" className="uppercase text-xs text-sky-500 tracking-wider hover:text-sky-400 hover:underline">
+                            Read more in the Docs...
+                        </Link>
+                    </section>
+
+                    <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                        <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
+                            The Gurus
                         </h2>
 
                         <Link href="/about/gurus" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">

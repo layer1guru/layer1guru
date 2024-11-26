@@ -7,9 +7,9 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Layer1Guru',
+    template: '%s - L1 GÜRŲ',
     default:
-      'Layer1Guru - Software designer, founder, and amateur astronaut',
+      'L1 GÜRŲ - Software designer, founder, and amateur astronaut',
   },
   description:
     'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
