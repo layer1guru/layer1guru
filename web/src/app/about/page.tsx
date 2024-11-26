@@ -168,7 +168,7 @@ export default function About() {
                             Each GURU unlocks ALL PRO CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
                         </h3>
 
-                        <Link href="/mint" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
+                        <Link href="/market" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
                             Mint Your Own Guru
                         </Link>
 

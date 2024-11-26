@@ -93,6 +93,22 @@ function MobileNavItem({
     )
 }
 
+function MobileNavItemBlank({
+    href,
+    children,
+}: {
+    href: string
+    children: React.ReactNode
+}) {
+    return (
+        <li>
+            <PopoverButton as={Link} href={href} target="_blank" className="block py-2">
+                {children}
+            </PopoverButton>
+        </li>
+    )
+}
+
 function MobileNavigation(
     props: React.ComponentPropsWithoutRef<typeof Popover>,
 ) {
@@ -121,8 +137,8 @@ function MobileNavigation(
                 </div>
                 <nav className="mt-6">
                     <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-                        <MobileNavItem href="/mint">Mint!</MobileNavItem>
-                        <MobileNavItem href="#">Cloud</MobileNavItem>
+                        <MobileNavItem href="/market">Market</MobileNavItem>
+                        <MobileNavItemBlank href="https://cloud.layer1.guru">Cloud</MobileNavItemBlank>
                         <MobileNavItem href="/downloads">Downloads</MobileNavItem>
                         <MobileNavItem href="/showcase">Showcase</MobileNavItem>
                         <MobileNavItem href="/qa">Q & A</MobileNavItem>
@@ -163,12 +179,42 @@ function NavItem({
     )
 }
 
+function NavItemBlank({
+    href,
+    children,
+}: {
+    href: string
+    children: React.ReactNode
+}) {
+    let isActive = usePathname() === href
+
+    return (
+        <li>
+            <Link
+                href={href}
+                target="_blank"
+                className={clsx(
+                    'relative block px-3 py-2 transition',
+                    isActive
+                    ? 'text-teal-500 dark:text-teal-400'
+                    : 'hover:text-teal-500 dark:hover:text-teal-400',
+                )}
+            >
+                {children}
+                {isActive && (
+                    <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0" />
+                )}
+            </Link>
+        </li>
+    )
+}
+
 function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
     return (
         <nav {...props}>
             <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-                <NavItem href="/mint">Mint!</NavItem>
-                <NavItem href="#">Cloud</NavItem>
+                <NavItem href="/market">Market</NavItem>
+                <NavItemBlank href="https://cloud.layer1.guru">Cloud</NavItemBlank>
                 <NavItem href="/downloads">Downloads</NavItem>
                 <NavItem href="/showcase">Showcase</NavItem>
                 <NavItem href="/qa">Q&nbsp;&&nbsp;A</NavItem>

@@ -36,14 +36,14 @@ function Tool({
 }
 
 export const metadata = {
-    title: 'Mint Your Specialists',
+    title: 'Mint & Trade Your Specialists',
     description: 'Minting is coming soon...',
 }
 
-export default function Minting() {
+export default function Market() {
     return (
         <SimpleLayout
-            title="Mint Your Specialists"
+            title="Mint & Trade Your Specialists"
             intro="NFT minting will be available soon..."
         >
             <div className="space-y-20">

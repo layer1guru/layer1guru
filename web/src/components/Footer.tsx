@@ -19,6 +19,24 @@ function NavLink({
     )
 }
 
+function NavLinkBlank({
+    href,
+    children,
+}: {
+    href: string
+    children: React.ReactNode
+}) {
+    return (
+        <Link
+            href={href}
+            target="_blank"
+            className="transition hover:text-teal-500 dark:hover:text-teal-400"
+        >
+            {children}
+        </Link>
+    )
+}
+
 export function Footer() {
     return (
         <footer className="mt-32 flex-none">
@@ -27,8 +45,8 @@ export function Footer() {
                     <ContainerInner>
                         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
                             <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                                <NavLink href="/mint">Mint!</NavLink>
-                                <NavLink href="#">Cloud</NavLink>
+                                <NavLink href="/market">Market</NavLink>
+                                <NavLinkBlank href="https://cloud.layer1.guru">Cloud</NavLinkBlank>
                                 <NavLink href="/downloads">Downloads</NavLink>
                                 <NavLink href="/showcase">Showcase</NavLink>
                                 <NavLink href="/qa">Q & A</NavLink>
