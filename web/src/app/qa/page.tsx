@@ -46,7 +46,6 @@ export const metadata: Metadata = {
 
 export default async function AnswersIndex() {
     let answers = await getAllAnswers()
-console.log('GET ALL ANSERS', answers)
 
     return (
         <SimpleLayout
