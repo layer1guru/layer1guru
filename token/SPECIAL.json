@@ -1,0 +1,28 @@
+{
+  "name": "L1 SpecialOp·01 #1",
+  "description": "A Special Operator from Season 01 of an EP!C Layer1 debue @ the AVAX retro9000 build-a-thon — https://layer1.guru/s/1/1",
+  "external_url": "https://layer1.guru/s/1/1",
+  "image": "https://arweave.net/gjAzfpcJcHqviSnYuUI5ElEQT9b934ShxrUQ-WVolZ0/10.png",
+  "attributes": [
+    {
+      "trait_type": "Workspace",
+      "value": "Cubicle"
+    },
+    {
+      "trait_type": "Mood",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Other1",
+      "value": "Tbd"
+    },
+    {
+      "trait_type": "Other2",
+      "value": "Tbd"
+    },
+    {
+      "trait_type": "Other3",
+      "value": 123
+    }
+  ]
+}
