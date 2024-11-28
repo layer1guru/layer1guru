@@ -5,8 +5,16 @@
   "image": "https://arweave.net/gjAzfpcJcHqviSnYuUI5ElEQT9b934ShxrUQ-WVolZ0/10.png",
   "attributes": [
     {
+      "trait_type": "Class",
+      "value": "Guru|Scientist|Architect|Engineer|Manager|Analyst"
+    },
+    {
       "trait_type": "Workspace",
       "value": "Cubicle"
+    },
+    {
+      "trait_type": "Stamina",
+      "value": "High|Medium|Low"
     },
     {
       "trait_type": "Mood",
