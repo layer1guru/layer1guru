@@ -52,91 +52,91 @@ function Appearance({
 export const metadata: Metadata = {
     title: 'Downloads',
     description:
-        'Download the latest releases for your Operating System.',
+        'Download the latest L1 GÜRŲ releases for your operating system.',
 }
 
 export default function Speaking() {
     return (
         <SimpleLayout
             title="Downloads & Demos"
-            intro="Stay up-to-date with the Latest Releases. Download for your Operating System. One of my favorite ways to demonstrate my new ideas is by shipping Nightly releases."
+            intro="Stay up-to-date with the latest L1 GÜRŲ releases. One of my favorite ways to demonstrate my new ideas is by shipping Nightly releases."
         >
             <div className="space-y-20">
                 <SpeakingSection title="For Your SERVER">
                     <Appearance
-                        href="#"
-                        title="L1 NodΞRunr for Ubuntu/Debian"
-                        description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
+                        href="https://layer1.run"
+                        title="NodΞRunr for Ubuntu/Debian"
+                        description="NodΞRunr is a lightweight, smart daemon delivering effortless SysOps to Founders and Teams — assure your community of a SAFU space by maintaining your mission-critical nodes from anywhere, at any time."
                         event="Ubuntu/Debian"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
 
                     <Appearance
-                        href="#"
-                        title="L1 NodΞRunr for Redhat/CentOS"
-                        description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
+                        href="https://layer1.run"
+                        title="NodΞRunr for Redhat/CentOS"
+                        description="NodΞRunr is a lightweight, smart daemon delivering effortless SysOps to Founders and Teams — assure your community of a SAFU space by maintaining your mission-critical nodes from anywhere, at any time."
                         event="Redhat"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
                 </SpeakingSection>
 
                 <SpeakingSection title="For Your DESKTOP">
                     <Appearance
-                        href="#"
-                        title="L1 GÜRŲ for Windows"
-                        description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
+                        href="javascript://"
+                        title="GÜRŲ for Windows"
+                        description="Take control of your Layer-1 operations from your Windows computer."
                         event="Windows 10+"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
 
                     <Appearance
-                        href="#"
-                        title="L1 GÜRŲ for Mac OSX"
-                        description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
+                        href="javascript://"
+                        title="GÜRŲ for Mac OSX"
+                        description="Take control of your Layer-1 operations from your Macbook."
                         event="Mac OSX 15.x+"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
 
                     <Appearance
-                        href="#"
-                        title="L1 GÜRŲ for Ubuntu/Debian"
-                        description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
+                        href="javascript://"
+                        title="GÜRŲ for Ubuntu/Debian"
+                        description="Take control of your Layer-1 operations from your Linux computer."
                         event="Linux"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
                 </SpeakingSection>
 
                 <SpeakingSection title="For Your MOBILE">
                     <Appearance
-                        href="#"
-                        title="L1 GÜRŲ Nightly Edition"
-                        description="How we used world-class visual design to attract a great team, win over customers, and get more press for Planetaria."
+                        href="javascript://"
+                        title="GÜRŲ Nightly Edition"
+                        description="Take control of your Layer-1 operations from your mobile."
                         event="Android APK"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
 
                     <Appearance
-                        href="#"
-                        title="L1 GÜRŲ FOSS Edition"
-                        description="The story of how we built one of the most promising space startups in the world without taking any capital from investors."
+                        href="javascript://"
+                        title="GÜRŲ FOSS Edition"
+                        description="Take control of your Layer-1 operations from your mobile."
                         event="F-Droid Market"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
 
                     <Appearance
-                        href="#"
-                        title="L1 GÜRŲ App Store Edition"
-                        description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
+                        href="javascript://"
+                        title="GÜRŲ App Store Edition"
+                        description="Take control of your Layer-1 operations from your mobile."
                         event="App Store"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
 
                     <Appearance
-                        href="#"
-                        title="L1 GÜRŲ Play Store Edition"
-                        description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
+                        href="javascript://"
+                        title="GÜRŲ Play Store Edition"
+                        description="Take control of your Layer-1 operations from your mobile."
                         event="Play Store"
-                        cta="Click for download"
+                        cta="Click to learn more..."
                     />
                 </SpeakingSection>
             </div>
