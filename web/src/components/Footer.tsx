@@ -45,9 +45,9 @@ export function Footer() {
                     <ContainerInner>
                         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
                             <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                                <NavLink href="/market">Market</NavLink>
-                                <NavLinkBlank href="https://cloud.layer1.guru">Cloud</NavLinkBlank>
                                 <NavLink href="/downloads">Downloads</NavLink>
+                                <NavLinkBlank href="https://app.layer1.guru">App</NavLinkBlank>
+                                <NavLink href="/market">Market</NavLink>
                                 {/* <NavLink href="/showcase">Showcase</NavLink> */}
                                 <NavLink href="/qa">Q & A</NavLink>
                                 <NavLink href="/about">About</NavLink>

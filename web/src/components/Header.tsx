@@ -137,9 +137,9 @@ function MobileNavigation(
                 </div>
                 <nav className="mt-6">
                     <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-                        <MobileNavItem href="/market">Market</MobileNavItem>
-                        <MobileNavItemBlank href="https://cloud.layer1.guru">Cloud</MobileNavItemBlank>
                         <MobileNavItem href="/downloads">Downloads</MobileNavItem>
+                        <MobileNavItemBlank href="https://app.layer1.guru">App</MobileNavItemBlank>
+                        <MobileNavItem href="/market">Market</MobileNavItem>
                         {/* <MobileNavItem href="/showcase">Showcase</MobileNavItem> */}
                         <MobileNavItem href="/qa">Q & A</MobileNavItem>
                         <MobileNavItem href="/about">About</MobileNavItem>
@@ -213,9 +213,9 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
     return (
         <nav {...props}>
             <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-                <NavItem href="/market">Market</NavItem>
-                <NavItemBlank href="https://cloud.layer1.guru">Cloud</NavItemBlank>
                 <NavItem href="/downloads">Downloads</NavItem>
+                <NavItemBlank href="https://app.layer1.guru">App</NavItemBlank>
+                <NavItem href="/market">Market</NavItem>
                 {/* <NavItem href="/showcase">Showcase</NavItem> */}
                 <NavItem href="/qa">Q&nbsp;&&nbsp;A</NavItem>
                 <NavItem href="/about">About</NavItem>
