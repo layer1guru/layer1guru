@@ -93,11 +93,11 @@ export default function About() {
                     </section>
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            Node Runner
+                        <h2 className="text-5xl font-light text-amber-300 tracking-wider">
+                            NodΞRunr
                         </h2>
 
-                        <Link href="/about/node-runner" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                        <Link href="/about/noderunr" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
                             Click to learn more...
                         </Link>
 
@@ -152,11 +152,11 @@ export default function About() {
                     </section>
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            The Specials
+                        <h2 className="text-5xl font-light text-amber-300 tracking-wider">
+                            GÜRŲ
                         </h2>
 
-                        <Link href="/about/specials" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                        <Link href="/about/guru" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
                             Click to learn more...
                         </Link>
 
@@ -167,10 +167,6 @@ export default function About() {
                         <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
                             Each GURU unlocks ALL PRO CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
                         </h3>
-
-                        <Link href="/market" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
-                            Mint Your Own Special
-                        </Link>
 
                         <h3 className="mt-3 text-lg text-slate-200 tracking-widest">
                             TOP Benefits for PRO CLASS
@@ -214,13 +210,19 @@ export default function About() {
                     </section>
 
                     <section className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                        <h2 className="text-4xl font-light italic text-amber-400 tracking-wider">
-                            The Gurus
+                        <h2 className="text-5xl font-light text-amber-300 tracking-wider">
+                            Concierge
                         </h2>
 
-                        <Link href="/about/gurus" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
-                            Click to learn more...
-                        </Link>
+                        <div className="mt-2 mb-5 flex flex-col gap-2">
+                            <Link href="/about/specialops" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                                Click to learn more about SpecialOps
+                            </Link>
+
+                            <Link href="/about/gurus" className="font-bold text-sky-400 hover:text-sky-300 hover:underline">
+                                Click to learn more about Gurus
+                            </Link>
+                        </div>
 
                         <p className="text-sm leading-6">
                             Gurus can be created directly from the Cloud.
@@ -229,6 +231,10 @@ export default function About() {
                         <h3 className="w-3/4 text-xs text-rose-400 tracking-widest italic">
                             Each GURU unlocks ALL PRO CLASS features for (x1) Layer1 Node Runner at NO additional charge (until STAMINA is depleted).
                         </h3>
+
+                        <Link href="/market" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
+                            Mint Your Own Special
+                        </Link>
 
                         <Link href="/market" className="block w-fit mx-auto my-2 px-5 py-1 bg-amber-100 rounded-lg border-2 border-amber-500 font-bold text-xl text-amber-700 hover:text-amber-100 hover:bg-amber-600">
                             Mint Your Own Guru
@@ -298,7 +304,7 @@ export default function About() {
                             Follow on StackExchange
                         </SocialLink>
 
-                        <div className="mt-8 flex flex-row gap-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
+                        {/* <div className="mt-8 flex flex-row gap-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
                             <SocialLink
                                 href="https://sdot.io"
                                 icon={MailIcon}
@@ -312,7 +318,7 @@ export default function About() {
                             >
                                 APECS.dev
                             </SocialLink>
-                        </div>
+                        </div> */}
 
                         <div className="mt-8 flex flex-col gap-4 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
                             <h3 className="text-xs text-slate-400 uppercase tracking-widest">
@@ -328,6 +334,13 @@ export default function About() {
                                 icon={MailIcon}
                             >
                                 shomari.avax
+                            </SocialLink>
+
+                            <SocialLink
+                                href="https://app.ens.domains/shomari.eth"
+                                icon={MailIcon}
+                            >
+                                shomari.eth
                             </SocialLink>
 
                             <SocialLink
