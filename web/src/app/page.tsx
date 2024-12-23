@@ -139,9 +139,10 @@ function Newsletter() {
                     aria-label="Email address"
                     required
                     className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10"
+                    disabled
                 />
 
-                <Button type="submit" className="ml-4 flex-none">
+                <Button type="submit" className="ml-4 flex-none" disabled>
                     Join
                 </Button>
             </div>
@@ -218,36 +219,33 @@ function Release({ release }: { release: Release }) {
 
 function Releases() {
     let releases: Array<Release> = [
+        // {
+        //     company: 'NodΞRunr  — Windows Support',
+        //     title: 'In the latest release, I’ve added support for "native" Windows.',
+        //     logo: logoPlanetaria,
+        //     start: 'v24.12.xx',
+        //     end: 'alpha',
+        // },
+        // {
+        //     company: 'E2E Encryption (by default)',
+        //     title: 'Users may choose to E2EE the communications between the node and their client.',
+        //     logo: logoPlanetaria,
+        //     start: 'v24.12.xx',
+        //     end: 'alpha',
+        // },
         {
-            company: 'Planetaria',
-            title: 'CEO',
+            company: '1-Click Blockchain Setup & Installation',
+            title: 'Enable the complete download and installation of avalanchego on a local or remote server.',
             logo: logoPlanetaria,
-            start: '2019',
-            end: {
-                label: 'Present',
-                dateTime: new Date().getFullYear().toString(),
-            },
+            start: 'v24.12.5',
+            end: 'alpha',
         },
         {
-            company: 'Airbnb',
-            title: 'Product Designer',
-            logo: logoAirbnb,
-            start: '2014',
-            end: '2019',
-        },
-        {
-            company: 'Facebook',
-            title: 'iOS Software Engineer',
-            logo: logoFacebook,
-            start: '2011',
-            end: '2014',
-        },
-        {
-            company: 'Starbucks',
-            title: 'Shift Supervisor',
-            logo: logoStarbucks,
-            start: '2008',
-            end: '2011',
+            company: 'NodΞRunr v24.12.1 — 1st Release',
+            title: 'Lightweight, smart daemon delivering effortless SysOps to Avalanche Founders and Teams.',
+            logo: logoPlanetaria,
+            start: 'v24.12.1',
+            end: 'alpha',
         },
     ]
 
@@ -257,7 +255,7 @@ function Releases() {
                 <BriefcaseIcon className="h-6 w-6 flex-none" />
 
                 <span className="ml-3">
-                    Work
+                    Updates &amp; Releases
                 </span>
             </h2>
 
@@ -267,8 +265,8 @@ function Releases() {
                 ))}
             </ol>
 
-            <Button href="javascript://" variant="secondary" className="group mt-6 w-full">
-                Download CV
+            <Button href="/downloads" variant="secondary" className="group mt-6 w-full">
+                View all Updates &amp; Releases
                 <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
             </Button>
         </div>
@@ -369,8 +367,8 @@ export default async function Home() {
                     </div>
 
                     <div className="space-y-10 lg:pl-16 xl:pl-24">
-                        <Newsletter />
                         <Releases />
+                        <Newsletter />
                     </div>
                 </div>
             </Container>
