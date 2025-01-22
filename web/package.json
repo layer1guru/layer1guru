@@ -1,6 +1,6 @@
 {
   "name": "layer1guru",
-  "version": "24.12.18",
+  "version": "25.1.22",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
@@ -25,7 +25,7 @@
     "cheerio": "1.0.0-rc.12",
     "clsx": "2.1.0",
     "fast-glob": "3.2.11",
-    "next": "14.2.1",
+    "next": "15.1.5",
     "next-plausible": "3.12.4",
     "next-themes": "0.2.1",
     "react": "18.2.0",
