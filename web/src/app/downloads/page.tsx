@@ -82,7 +82,7 @@ export default function Speaking() {
 
                 <SpeakingSection title="For Your DESKTOP">
                     <Appearance
-                        href="javascript://"
+                        href="#"
                         title="GÜRŲ for Windows"
                         description="Take control of your Layer-1 operations from your Windows computer."
                         event="Windows 10+"
@@ -90,7 +90,7 @@ export default function Speaking() {
                     />
 
                     <Appearance
-                        href="javascript://"
+                        href="#"
                         title="GÜRŲ for Mac OSX"
                         description="Take control of your Layer-1 operations from your Macbook."
                         event="Mac OSX 15.x+"
@@ -98,7 +98,7 @@ export default function Speaking() {
                     />
 
                     <Appearance
-                        href="javascript://"
+                        href="#"
                         title="GÜRŲ for Ubuntu/Debian"
                         description="Take control of your Layer-1 operations from your Linux computer."
                         event="Linux"
@@ -108,7 +108,7 @@ export default function Speaking() {
 
                 <SpeakingSection title="For Your MOBILE">
                     <Appearance
-                        href="javascript://"
+                        href="#"
                         title="GÜRŲ Nightly Edition"
                         description="Take control of your Layer-1 operations from your mobile."
                         event="Android APK"
@@ -116,7 +116,7 @@ export default function Speaking() {
                     />
 
                     <Appearance
-                        href="javascript://"
+                        href="#"
                         title="GÜRŲ FOSS Edition"
                         description="Take control of your Layer-1 operations from your mobile."
                         event="F-Droid Market"
@@ -124,7 +124,7 @@ export default function Speaking() {
                     />
 
                     <Appearance
-                        href="javascript://"
+                        href="#"
                         title="GÜRŲ App Store Edition"
                         description="Take control of your Layer-1 operations from your mobile."
                         event="App Store"
@@ -132,7 +132,7 @@ export default function Speaking() {
                     />
 
                     <Appearance
-                        href="javascript://"
+                        href="#"
                         title="GÜRŲ Play Store Edition"
                         description="Take control of your Layer-1 operations from your mobile."
                         event="Play Store"

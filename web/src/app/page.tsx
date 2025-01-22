@@ -119,16 +119,17 @@ function SocialLink({
 
 function Newsletter() {
     return (
-        <form
-            action="javascript://"
+        <div
             className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
         >
-            <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+            <h2 className="flex text-xs font-semibold text-zinc-900 dark:text-zinc-100 uppercase">
                 <MailIcon className="h-6 w-6 flex-none" />
-                <span className="ml-3">Stay up to date</span>
+                <span className="ml-3">
+                    Stay up to date
+                </span>
             </h2>
 
-            <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+            <p className="mt-2 text-lg text-zinc-600 dark:text-zinc-400">
                 Get notified when I publish something new, and unsubscribe at any time.
             </p>
 
@@ -146,7 +147,7 @@ function Newsletter() {
                     Join
                 </Button>
             </div>
-        </form>
+        </div>
     )
 }
 
@@ -251,11 +252,11 @@ function Releases() {
 
     return (
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-            <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+            <h2 className="flex text-xs font-semibold text-zinc-900 dark:text-zinc-100 uppercase">
                 <BriefcaseIcon className="h-6 w-6 flex-none" />
 
                 <span className="ml-3">
-                    Updates &amp; Releases
+                    Latest GÜRŲ Activity
                 </span>
             </h2>
 
@@ -265,8 +266,8 @@ function Releases() {
                 ))}
             </ol>
 
-            <Button href="/downloads" variant="secondary" className="group mt-6 w-full">
-                View all Updates &amp; Releases
+            <Button href="/logs" variant="secondary" className="group mt-6 w-full">
+                View ALL Recent Activity
                 <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
             </Button>
         </div>
@@ -330,25 +331,25 @@ export default async function Home() {
 
                     <div className="mt-6 flex gap-6">
                         <SocialLink
-                            href="javascript://"
+                            href="#"
                             aria-label="Follow on X"
                             icon={XIcon}
                         />
 
                         <SocialLink
-                            href="javascript://"
+                            href="#"
                             aria-label="Follow on Instagram"
                             icon={InstagramIcon}
                         />
 
                         <SocialLink
-                            href="javascript://"
+                            href="#"
                             aria-label="Follow on GitHub"
                             icon={GitHubIcon}
                         />
 
                         <SocialLink
-                            href="javascript://"
+                            href="#"
                             aria-label="Follow on LinkedIn"
                             icon={LinkedInIcon}
                         />
