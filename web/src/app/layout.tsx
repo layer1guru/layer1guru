@@ -1,7 +1,6 @@
 import { type Metadata } from 'next'
 import Script from 'next/script'
 
-import PlausibleProvider from 'next-plausible'
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
 
