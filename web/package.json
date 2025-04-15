@@ -1,12 +1,15 @@
 {
   "name": "layer1guru",
-  "version": "25.1.22",
+  "version": "25.4.14",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -26,7 +29,6 @@
     "clsx": "2.1.0",
     "fast-glob": "3.2.11",
     "next": "15.1.5",
-    "next-plausible": "3.12.4",
     "next-themes": "0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -35,13 +37,16 @@
     "typescript": "5.3.3"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "4.20250415.0",
+    "@opennextjs/cloudflare": "~1.0.0-beta.0 || 1.0.0",
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",
     "prettier": "3.3.2",
     "prettier-plugin-tailwindcss": "0.6.5",
-    "sharp": "0.33.1"
+    "sharp": "0.33.1",
+    "wrangler": "4.10.0"
   },
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "pnpm@9.15.4",
   "engines": {
     "node": ">=21.0.0"
   }
