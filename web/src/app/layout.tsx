@@ -1,4 +1,5 @@
 import { type Metadata } from 'next'
+import Script from 'next/script'
 
 import PlausibleProvider from 'next-plausible'
 import { Providers } from '@/app/providers'
@@ -37,6 +38,7 @@ export default function RootLayout({
                     </Providers>
                 </PlausibleProvider>
             </body>
+            <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
         </html>
     )
 }
