@@ -12,5 +12,11 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+	"routes": [
+		 {
+			"pattern": "layer1.guru",
+			"custom_domain": true
+		 }
+	]
 }
