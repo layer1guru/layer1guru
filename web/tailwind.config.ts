@@ -1,12 +1,12 @@
-import typographyPlugin from '@tailwindcss/typography'
+// import typographyPlugin from '@tailwindcss/typography'
 import { type Config } from 'tailwindcss'
 
-import typographyStyles from './typography'
+// import typographyStyles from './typography'
 
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: 'selector',
-  plugins: [typographyPlugin],
+  // plugins: [typographyPlugin],
   theme: {
     fontSize: {
       xs: ['0.8125rem', { lineHeight: '1.5rem' }],
@@ -23,6 +23,6 @@ export default {
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
-    typography: typographyStyles,
+    // typography: typographyStyles,
   },
 } satisfies Config
