@@ -160,19 +160,19 @@ interface Release {
 }
 
 function Release({ release }: { release: Release }) {
-    let startLabel = typeof release.start === 'string'
+    const startLabel = typeof release.start === 'string'
         ? release.start
         : release.start.label
 
-    let startDate = typeof release.start === 'string'
+    const startDate = typeof release.start === 'string'
         ? release.start
         : release.start.dateTime
 
-    let endLabel = typeof release.end === 'string'
+    const endLabel = typeof release.end === 'string'
         ? release.end
         : release.end.label
 
-    let endDate = typeof release.end === 'string'
+    const endDate = typeof release.end === 'string'
         ? release.end
         : release.end.dateTime
 
@@ -219,7 +219,7 @@ function Release({ release }: { release: Release }) {
 }
 
 function Releases() {
-    let releases: Array<Release> = [
+    const releases: Array<Release> = [
         // {
         //     company: 'NodΞRunr  — Windows Support',
         //     title: 'In the latest release, I’ve added support for "native" Windows.',
@@ -275,7 +275,7 @@ function Releases() {
 }
 
 function Photos() {
-    let rotations = [
+    const rotations = [
         'rotate-2',
         '-rotate-2',
         'rotate-2',
@@ -308,7 +308,7 @@ function Photos() {
 }
 
 export default async function Home() {
-    let articles = (await getAllAnswers()).slice(0, 4)
+    const articles = (await getAllAnswers()).slice(0, 4)
 
     return (
         <>
