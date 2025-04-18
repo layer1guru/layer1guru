@@ -29,8 +29,8 @@ export function AnswerLayout({
     article: AnswerWithSlug
     children: React.ReactNode
 }) {
-    let router = useRouter()
-    let { previousPathname } = useContext(AppContext)
+    const router = useRouter()
+    const { previousPathname } = useContext(AppContext)
 
     return (
         <Container className="mt-16 lg:mt-32">

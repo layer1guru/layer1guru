@@ -14,7 +14,7 @@ export interface AnswerWithSlug extends Answer {
 async function importAnswer(
     answerFilename: string,
 ): Promise<AnswerWithSlug> {
-    let { answer } = (await import(`../app/qa/${answerFilename}`)) as {
+    const { answer } = (await import(`../app/qa/${answerFilename}`)) as {
         default: React.ComponentType
         answer: Answer
     }
@@ -26,11 +26,11 @@ async function importAnswer(
 }
 
 export async function getAllAnswers() {
-    let answerFilenames = await glob('*/page.mdx', {
+    const answerFilenames = await glob('*/page.mdx', {
         cwd: './src/app/qa',
     })
 
-    let answers = await Promise.all(answerFilenames.map(importAnswer))
+    const answers = await Promise.all(answerFilenames.map(importAnswer))
 
     return answers.sort((a, z) => +new Date(z.date) - +new Date(a.date))
 }

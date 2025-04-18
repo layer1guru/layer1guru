@@ -336,7 +336,7 @@ export function Header() {
                 setProperty('--header-height', `${downDelay + height}px`)
                 setProperty('--header-mb', `${-downDelay}px`)
             } else if (top + height < -upDelay) {
-                let offset = Math.max(height, scrollY - upDelay)
+                const offset = Math.max(height, scrollY - upDelay)
                 setProperty('--header-height', `${offset}px`)
                 setProperty('--header-mb', `${height - offset}px`)
             } else if (top === 0) {
